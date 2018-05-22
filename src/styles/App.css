@@ -1,0 +1,28 @@
+.App {
+  width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.App__header {
+  padding: 1rem;
+  font-family: "Economica", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.button {
+  background: darkred;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 0.4rem 0.5rem;
+}
+.button:hover {
+  background-color: #a80000;
+}
